@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    max-height: max-content;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.5);
+}
+
+img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+@media (max-width: 500px) {
+    .card{
+        width: 250px;
+        height: 500px;
+    }
+    img{
+        width: 200px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
